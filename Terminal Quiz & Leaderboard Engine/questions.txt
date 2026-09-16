@@ -1,0 +1,49 @@
+A process has 3 page frames. Reference string is 1,2,3,4,1,2,5,1,2,3,4,5. Using LRU page replacement, how many page faults occur?|8|9|10|11|2
+For a binary search tree containing n distinct keys, what is the worst-case time complexity of searching for a key?|O(1)|O(log n)|O(n)|O(n log n)|3
+Which traversal of a binary search tree produces the keys in sorted increasing order?|Preorder|Inorder|Postorder|Level order|2
+A graph has n vertices and is represented using an adjacency matrix. What is the time complexity of checking whether an edge exists between two given vertices?|O(1)|O(log n)|O(n)|O(n²)|1
+Which data structure is primarily used to implement BFS?|Stack|Queue|Priority queue|Hash table|2
+Which data structure is primarily used to implement DFS iteratively?|Queue|Stack|Heap|Hash table|2
+For a connected undirected graph with n vertices, the number of edges in any spanning tree is?|n-1|n|n+1|2n|1
+Which algorithm can be used to find a minimum spanning tree of a connected weighted undirected graph?|Dijkstra only|Kruskal|Bellman-Ford only|Floyd-Warshall|2
+Dijkstra's shortest-path algorithm is not guaranteed to work correctly when the graph contains?|Undirected edges|Zero-weight edges|Negative-weight edges|Positive-weight edges|3
+The worst-case time complexity of Merge Sort on n elements is?|O(n)|O(log n)|O(n log n)|O(n²)|3
+The worst-case time complexity of Quick Sort is?|O(n)|O(log n)|O(n log n)|O(n²)|4
+Which sorting algorithm is stable in its standard implementation?|Heap sort|Selection sort|Merge sort|Quick sort|3
+For an array-based stack containing n elements, the time complexity of push and pop operations is?|O(1)|O(log n)|O(n)|O(n log n)|1
+A circular queue is implemented using an array of size n. Which condition commonly represents a full queue when one slot is deliberately kept empty?|front==rear|rear==front-1 modulo n|(rear+1) modulo n == front|rear==n-1|3
+Which collision-resolution technique stores multiple keys in linked lists associated with hash-table slots?|Linear probing|Quadratic probing|Separate chaining|Double hashing|3
+If a hash table has load factor α and uses separate chaining, the expected successful-search time under simple uniform hashing is proportional to?|1|log α|1+α|nα|3
+Which normal form removes partial functional dependencies on a candidate key?|1NF|2NF|3NF|BCNF|2
+A relation is in 3NF if for every non-trivial functional dependency X→A, either X is a superkey or A is?|A prime attribute|A foreign key|A non-prime attribute|A candidate key|1
+Which SQL operation combines rows from two relations based on a matching condition?|Projection|Selection|Join|Division|3
+Which relational algebra operation selects specific columns from a relation?|Selection|Projection|Union|Difference|2
+A transaction satisfies atomicity when?|It executes faster than other transactions|It is either completely performed or not performed|It always runs alone|Its results are permanently stored|2
+Which concurrency-control mechanism uses locks to control simultaneous access to database items?|Timestamp ordering|Two-phase locking|Indexing|Hashing|2
+In a B+ tree, where are the actual data-record pointers generally stored?|Only in internal nodes|Only in leaf nodes|Only at the root|At every level equally|2
+Which CPU scheduling algorithm can cause starvation of low-priority processes?|FCFS|Round Robin|Priority scheduling|FIFO paging|3
+In Round Robin scheduling, decreasing the time quantum generally makes the scheduling behavior approach?|FCFS|SJF|Priority scheduling|Non-preemptive scheduling|2
+A system has processes competing for resources. Which condition is necessary for deadlock?|Mutual exclusion|No resource sharing|Infinite memory|Single process only|1
+Which of the following is NOT one of the four Coffman deadlock conditions?|Mutual exclusion|Hold and wait|Circular wait|Preemption of resources|4
+In virtual memory, a page fault occurs when?|A page is found in cache|The referenced page is not currently in main memory|The CPU cache is full|The page table is empty|2
+Which page-replacement algorithm can exhibit Belady's anomaly?|LRU|Optimal|FIFO|MRU|3
+TLB is primarily used to?|Store recently used instructions|Speed up virtual-to-physical address translation|Increase disk capacity|Schedule processes|2
+A cache has hit ratio h, cache access time C, and main-memory access time M. Ignoring other delays, a cache hit requires approximately?|C|M|C+M|hM|1
+Which cache mapping allows a memory block to be placed in exactly one cache line?|Fully associative|Direct mapped|Set associative|Random mapped|2
+In a pipelined processor, the main purpose of pipelining is to?|Reduce instruction-set size|Increase instruction throughput|Eliminate all hazards|Reduce memory size|2
+Which type of hazard occurs when an instruction depends on the result produced by an earlier instruction?|Structural|Control|Data|Memory|3
+A 32-bit instruction contains a 6-bit opcode. How many distinct opcode values can be represented?|32|64|128|256|2
+For a signed two's-complement integer represented using n bits, the range is?|−2^(n−1) to 2^(n−1)−1|−2^n to 2^n−1|0 to 2^n−1|−2^(n−1)+1 to 2^(n−1)|1
+Which logic gate is functionally complete by itself?|AND|OR|XOR|NAND|4
+A Boolean function F(A,B)=A+B. Which input combination makes F equal to 0?|A=0,B=0|A=0,B=1|A=1,B=0|A=1,B=1|1
+Which regular language property is closed under union?|Regular languages|Only context-free languages|Only recursive languages|None|1
+A DFA with n states can be converted to an equivalent NFA with?|Exactly n² states|At most n states|At least 2^n states|Exactly 2^n states|2
+Which class of languages is recognized by pushdown automata?|Regular languages|Context-free languages|Context-sensitive languages only|Recursive languages only|2
+Which problem is undecidable in general?|DFA acceptance|DFA equivalence|CFG membership|Halting problem|4
+For a deterministic finite automaton, the minimum number of states required for a language is determined using?|Pumping lemma only|Myhill-Nerode equivalence|Chomsky hierarchy|Parse trees|2
+Which parsing technique is generally associated with bottom-up parsing?|Recursive descent|LL parsing|LR parsing|Top-down predictive parsing|3
+In compiler design, lexical analysis converts?|Tokens into parse trees|Source characters into tokens|Parse trees into machine code|Machine code into tokens|2
+Which compiler phase checks whether the sequence of tokens follows the grammar?|Lexical analysis|Syntax analysis|Code generation|Optimization|2
+For the recurrence T(n)=2T(n/2)+n, the asymptotic complexity is?|O(log n)|O(n)|O(n log n)|O(n²)|3
+If a relation R on set A is reflexive, then for every a∈A?|aRa|aRb for all b|bRa for all b|aRa never holds|1
+Which of the following is necessarily true for an equivalence relation?|It is only reflexive|It is reflexive and symmetric but not transitive|It is reflexive, symmetric and transitive|It is antisymmetric only|3
